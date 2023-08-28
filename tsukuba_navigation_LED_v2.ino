@@ -121,7 +121,7 @@ void orangeLight3(){
      for(i = 0 ; i < NUMPIN; i++ )
      {
         strip.setPixelColor(i-1,0,0,0);
-        strip.setPixelColor(i, 0, 0, 50);
+        strip.setPixelColor(i, 45,13,0);
         strip.show();
         delay(30);
      }
